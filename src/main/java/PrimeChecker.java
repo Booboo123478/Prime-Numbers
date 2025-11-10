@@ -4,6 +4,9 @@ public class PrimeChecker {
         if (n<=1){
             return false;
         }
+        if (n%2==0 && n!=2){
+            return false;
+        }
         return true;
     }
 
