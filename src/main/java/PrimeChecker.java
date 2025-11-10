@@ -1,10 +1,7 @@
 public class PrimeChecker {
 
     public boolean isPrime(int n) {
-        if (n==0){
-            return false;
-        }
-        if(n==1){
+        if (n<=1){
             return false;
         }
         return true;
