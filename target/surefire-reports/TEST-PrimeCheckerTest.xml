@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PrimeCheckerTest" time="0.168" tests="26" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="PrimeCheckerTest" time="0.382" tests="31" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\marca\OneDrive\Documents\GitHub\Prime-Numbers\target\test-classes;C:\Users\marca\OneDrive\Documents\GitHub\Prime-Numbers\target\classes;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\marca\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\marca\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\marca\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\marca\OneDrive\Documents\GitHub\Prime-Numbers\target\test-classes;C:\Users\marca\OneDrive\Documents\GitHub\Prime-Numbers\target\classes;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\marca\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\marca\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\marca\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\marca\AppData\Local\Temp\surefire16024491650562027897\surefirebooter-20251110115426644_3.jar C:\Users\marca\AppData\Local\Temp\surefire16024491650562027897 2025-11-10T11-54-26_385-jvmRun1 surefire-20251110115426644_1tmp surefire_0-20251110115426644_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\marca\AppData\Local\Temp\surefire15309307047341446049\surefirebooter-20251110121425653_3.jar C:\Users\marca\AppData\Local\Temp\surefire15309307047341446049 2025-11-10T12-14-25_387-jvmRun1 surefire-20251110121425653_1tmp surefire_0-20251110121425653_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\marca\OneDrive\Documents\GitHub\Prime-Numbers\target\test-classes;C:\Users\marca\OneDrive\Documents\GitHub\Prime-Numbers\target\classes;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\marca\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\marca\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\marca\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\marca\OneDrive\Documents\GitHub\Prime-Numbers\target\test-classes;C:\Users\marca\OneDrive\Documents\GitHub\Prime-Numbers\target\classes;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\marca\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\marca\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\marca\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\marca\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\marca\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\marca"/>
     <property name="user.language" value="fr"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\marca\AppData\Local\Temp\surefire16024491650562027897\surefirebooter-20251110115426644_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\marca\AppData\Local\Temp\surefire15309307047341446049\surefirebooter-20251110121425653_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
@@ -58,30 +58,35 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="test6IsNotPrime" classname="PrimeCheckerTest" time="0.055"/>
-  <testcase name="test5IsPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test14NotIsPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test1IsNotPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test24NotIsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test13IsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test8NotIsPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test3IsPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test16NotIsPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test11IsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test21NotIsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test18NotIsPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test0IsNotPrime" classname="PrimeCheckerTest" time="0.0"/>
-  <testcase name="test19IsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test15NotIsPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test25NotIsPrime" classname="PrimeCheckerTest" time="0.014"/>
-  <testcase name="test23IsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test10NotIsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test17IsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test9NotIsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test20NotIsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test2IsPrime" classname="PrimeCheckerTest" time="0.002"/>
-  <testcase name="test7IsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test4IsNotPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test12NotIsPrime" classname="PrimeCheckerTest" time="0.001"/>
-  <testcase name="test22NotIsPrime" classname="PrimeCheckerTest" time="0.003"/>
+  <testcase name="shouldBePrime(int)[1]" classname="PrimeCheckerTest" time="0.134"/>
+  <testcase name="shouldBePrime(int)[2]" classname="PrimeCheckerTest" time="0.002"/>
+  <testcase name="shouldBePrime(int)[3]" classname="PrimeCheckerTest" time="0.002"/>
+  <testcase name="shouldBePrime(int)[4]" classname="PrimeCheckerTest" time="0.004"/>
+  <testcase name="shouldBePrime(int)[5]" classname="PrimeCheckerTest" time="0.002"/>
+  <testcase name="shouldBePrime(int)[6]" classname="PrimeCheckerTest" time="0.0"/>
+  <testcase name="shouldBePrime(int)[7]" classname="PrimeCheckerTest" time="0.002"/>
+  <testcase name="shouldBePrime(int)[8]" classname="PrimeCheckerTest" time="0.002"/>
+  <testcase name="shouldBePrime(int)[9]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldBePrime(int)[10]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[1]" classname="PrimeCheckerTest" time="0.003"/>
+  <testcase name="shouldNotBePrime(int)[2]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[3]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[4]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[5]" classname="PrimeCheckerTest" time="0.002"/>
+  <testcase name="shouldNotBePrime(int)[6]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[7]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[8]" classname="PrimeCheckerTest" time="0.002"/>
+  <testcase name="shouldNotBePrime(int)[9]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[10]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[11]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[12]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[13]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[14]" classname="PrimeCheckerTest" time="0.0"/>
+  <testcase name="shouldNotBePrime(int)[15]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[16]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[17]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[18]" classname="PrimeCheckerTest" time="0.002"/>
+  <testcase name="shouldNotBePrime(int)[19]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[20]" classname="PrimeCheckerTest" time="0.001"/>
+  <testcase name="shouldNotBePrime(int)[21]" classname="PrimeCheckerTest" time="0.001"/>
 </testsuite>
